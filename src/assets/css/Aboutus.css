@@ -1,0 +1,14 @@
+.app__aboutus-container {
+    background-color: black;
+}
+
+.app__aboutus-portofilo {
+    padding: 20px;
+}
+
+.app__aboutus-txtside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
