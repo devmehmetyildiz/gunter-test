@@ -4,11 +4,15 @@ import Email from "./email.png"
 import EmailLight from "./email-light.png"
 import dotColored from "./dot-colored.png"
 import dotWhite from "./dot-white.png"
+import aboutusimg1 from "./aboutusimg1.jpg"
+import aboutusimg2 from "./aboutusimg2.jpg"
 export default {
     Logo,
     Blackman,
     Email,
     EmailLight,
     dotColored,
-    dotWhite
+    dotWhite,
+    aboutusimg1,
+    aboutusimg2
 };
