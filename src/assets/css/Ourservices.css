@@ -1,6 +1,5 @@
 .app__ourservices-container {
     background-color: black;
-    margin-bottom: 10px;
 }
 
 .app__ourservices-portofilo {
@@ -8,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 7% 18%;
+    padding: 3% 18%;
 }
 
 .app__ourservices-titlesection {

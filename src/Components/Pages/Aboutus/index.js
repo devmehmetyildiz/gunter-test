@@ -3,23 +3,17 @@ import images from '../../../assets/images'
 import icons from '../../../assets/icons'
 import "../../../assets/css/Aboutus.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Title from '../../Common/Title'
 
 export default function index() {
     return (
         <div className='app__aboutus-container'>
             <div className='app__aboutus-portofilo'>
                 <div className='app__aboutus-txtside'>
-                    <div className='app__aboutus-subtitle'>
-                        <h5>ABOUT US</h5>
-                    </div>
-                    <div className='app__aboutus-title'>
-                        <h2>Leading the way in Creative Digital Agency</h2>
-                    </div>
-                    <div className='app__aboutus-boxline'>
-                        <div className='app__aboutus-boxline-1' />
-                        <div className='app__aboutus-boxline-2' />
-                        <div className='app__aboutus-boxline-3' />
-                    </div>
+                    <Title
+                        title="ABOUT US"
+                        subtitle="Leading the way in Creative Digital Agency"
+                    />
                     <div className='app__aboutus-maintxt'>
                         <div className='app__aboutus-maintxticon'>
                             <FontAwesomeIcon style={{ color: '#ff4800' }} className='app__aboutus-boxtitleiconfa' icon={icons.faCertificate} />
